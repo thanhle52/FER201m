@@ -1,13 +1,21 @@
 a {
     text-decoration: none;
-    color: white;
+    /* color: initial; */
+  }
+
+  .switch-mode{
+    display: block;
+    position: absolute;
+    width: 20vw;
+    left: 28.75vw;
+    top: 30%;
   }
   
   .navigation {
     display: flex;
     flex-wrap: wrap;
     background-color: black;
-    color: white;
+    /* color: white; */
     height: 50px;
     padding: 0px 10px;
   }
